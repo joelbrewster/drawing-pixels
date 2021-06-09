@@ -1,6 +1,7 @@
 * Drawing Pixels
 A pixel drawing app for the kids. Works well on touch screens but is OK with pointer device like a mouse.
-It's hosted here [[https://drawing-pixels.netlify.app/][Drawing Pixels]].
+It's hosted here: [[https://drawing-pixels.netlify.app/][Drawing Pixels]].
+Icon sourced from [[https://www.cleanpng.com/png-pixel-art-video-game-consoles-game-boy-playstation-1155789/][Clean PNG]].
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
