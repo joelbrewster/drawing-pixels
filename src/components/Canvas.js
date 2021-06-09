@@ -4,9 +4,9 @@ import Pixel from "./Pixel";
 
 const Canvas = props => {
     const [matrix, setMatrix] = useState(
-	Array(30)
+	Array(100)
 	    .fill()
-	    .map(() => Array(30).fill(0))
+	    .map(() => Array(100).fill(0))
     );
 
     const changeColor = (rowIndex, colIndex) => {
