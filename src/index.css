@@ -1,13 +1,84 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		 sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		 monospace;
+}
+
+.white {
+    background-color: white;
+}
+.black {
+    background-color: rgb(0, 0, 0);
+}
+.grey {
+    background-color: rgb(157, 157, 157);
+}
+
+.brown {
+    background-color: rgb(73, 60, 43);
+}
+.goldenrod {
+    background-color: rgb(164, 100, 34);
+}
+.orange {
+    background-color: rgb(235, 137, 49);
+}
+.yellow {
+    background-color: rgb(247, 226, 107);
+}
+
+.red {
+    background-color: rgb(190, 38, 51);
+}
+.pink {
+    background-color: rgb(224, 111, 139);
+}
+
+.darkblue {
+    background-color: rgb(0, 87, 132);
+}
+.blue {
+    background-color: rgb(49, 162, 242);
+}
+
+
+.darkgreen {
+    background-color: rgb(47, 72, 78);
+}
+.green {
+    background-color: rgb(68, 137, 26);
+}
+.lime {
+    background-color: rgb(163, 206, 39);
+}
+
+.fuchsia {
+    background-color: rgb(255,0,255);
+}
+
+.pixel {
+    width: calc(50vw/20);
+    height: calc(50vw/20);
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+}
+.canvas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.current-color {
+    border: 5px solid red;
 }
