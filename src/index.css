@@ -53,19 +53,22 @@ code {
     background-color: rgb(255,0,255);
 }
 .pixel {
-    width: 5vw;
-    height: 5vw;
+    width: calc(100vw / 25);
+    height: calc(100vw / 25);
     border: 1px solid lightgray;
     box-sizing: border-box;
 }
 .App {
     display: flex;
-    height: 100vh;
-    overflow: hidden;
-}
+ }
 .canvas {
     display: flex;
     flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
 }
 .current-color {
     border: 5px solid red;
